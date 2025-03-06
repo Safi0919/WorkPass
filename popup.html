@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Eligibility Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 300px;
+            padding: 10px;
+            text-align: center;
+        }
+        .safe {
+            color: green;
+            font-weight: bold;
+        }
+        .warning {
+            color: red;
+            font-weight: bold;
+        }
+        ul {
+            text-align: left;
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .scan-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<h2>Job Eligibility Checker</h2>
+<p>Click below to check if this job is suitable for international students.</p>
+<button class="scan-btn" id="scan">Check Job Eligibility</button>
+<div id="result"></div>
+<ul id="issues"></ul>
+<script src="popup.js"></script>
+</body>
+</html>
